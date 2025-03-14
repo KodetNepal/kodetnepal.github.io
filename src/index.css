@@ -1,0 +1,22 @@
+:root{
+    --font-family:'Montserrat', sans-serif;
+    --primary-color: #0082e6;
+    --secondary-color:#004A99;
+    --tertiary-color: #2c3e50;
+    --white: rgba(255, 255, 255, 0.8);
+    --xxl:  3rem;
+    --xl: 2.5rem;
+    --l: 2rem;
+    --s:1rem;
+    --semi-bold:600;
+}
+*{
+    padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family);
+}
