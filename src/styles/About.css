@@ -1,0 +1,19 @@
+.about-container{
+    max-height: 100vh;
+}
+.about-title{
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--tertiary-color);
+}
+.about-container h1 {
+    font-size: var(--xl);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .about-container h1 {
+        font-size: 2em;
+    }
+}

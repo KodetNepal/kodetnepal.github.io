@@ -1,5 +1,6 @@
 import '../styles/Navbar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 function Navbar() {
     return (
         <>
@@ -8,16 +9,17 @@ function Navbar() {
                 <label htmlFor="check" className='checkbtn'>
                     <i className="fas fa-bars"></i>
                 </label>
-                <label className="logo">Kodet</label>
+                <label className="logo">&lt;/&gt; &nbsp;Kodet</label>
                 <ul>
-                    <li><Link className='active'>Home</Link></li>
-                    <li><Link>About</Link></li>
-                    <li><Link>Services</Link></li>
-                    <li><Link>Contact</Link></li>
-                    <li><Link>Feedback</Link></li>
+                    <li><NavLink to="/" activeClassName="active" exact>Home</NavLink></li>
+                    <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+                    <li><NavLink to="/services" activeClassName="active">Services</NavLink></li>
+                    <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
+                    <li><NavLink to="/feedBack" activeClassName="active">Feedback</NavLink></li>
                 </ul>
             </nav>
         </>
-    )
+    );
 }
+
 export default Navbar;
