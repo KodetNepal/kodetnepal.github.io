@@ -1,10 +1,52 @@
 .hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 20px;
     background-color: var(--primary-color);
+    width: 100%;
 }
 .hero-section .content{
-    color: var(--white);
+    max-width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+
+}
+.hero-section h1{
+    font-size: var(--xxl);
+    max-width: 600px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+
+}
+.hero-section .content p{
+    font-weight: 300;
+    font-size: var(--l);
+    margin-top: 15px;
+    max-width: 600px;
+    opacity: 0.9;
+}
+.hero-section .content button{
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size:var(--s);
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);;
+}
+.hero-section .content button:hover{
+    color: #fff;
+    background-color: var(--tertiary-color);    
+    transform: translateY(-2px);
+
+
 }
