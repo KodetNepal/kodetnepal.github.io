@@ -59,7 +59,7 @@ function Contact() {
                             name="name" 
                             className="field" 
                             placeholder="Enter your name" 
-                            required 
+                            required="true"  
                             value={formData.name}
                             onChange={handleChange} 
                         />
@@ -71,7 +71,7 @@ function Contact() {
                             name="email" 
                             className="field" 
                             placeholder="Enter your email" 
-                            required 
+                            required="true"  
                             value={formData.email}
                             onChange={handleChange} 
                         />
@@ -82,7 +82,7 @@ function Contact() {
                             name="message" 
                             className="field mess" 
                             placeholder="Enter your message" 
-                            required 
+                            required="true"  
                             value={formData.message}
                             onChange={handleChange} 
                         ></textarea>
