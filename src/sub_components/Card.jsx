@@ -3,9 +3,9 @@ import '../styles/Card.css'; // Assuming you will add the necessary styles in th
 
 function Card({ img,title, label, text, remark, button_text }) {
   return (
-    <div className="column">
+ <div className="column">
       <div className="card">
-        <img src={img || "http://placehold.co/80x80"} alt="Card Image" style={{ width: '100%' }} />
+        <img src={img || "https://avatars.githubusercontent.com/u/111997815?v=4"} alt="Card Image"  />
         <div className="container">
           <h2>{title}</h2>
           <p className="title">{label}</p>
@@ -15,7 +15,7 @@ function Card({ img,title, label, text, remark, button_text }) {
           <p><button className="button">{button_text}</button></p>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

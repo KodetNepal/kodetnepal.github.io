@@ -2,9 +2,8 @@ import Card from "../sub_components/Card";
 import "../styles/About.css";
 function About(){
     return (
-        <div className="about-container">
-            <div className="about-title"> <h1 className="text-center">Our Team</h1></div>
-         
+      
+         <div className="row">
         <Card 
         img="https://avatars.githubusercontent.com/u/111997815?v=4"
         title="Dev Gautam Kumar" 
@@ -24,7 +23,8 @@ function About(){
         text=" React | Next.js | Tailwind CSS" 
         button_text="Contact" 
       />
-        </div>
+      </div>
+        
     )
 }
 export default About;
