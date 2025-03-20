@@ -7,7 +7,7 @@ function Services() {
                 <div className="about-title">
                     <h1 className="text-center">Our Services</h1>
                 </div>
-
+<div className="row">
                 <Card 
                     img="https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?q=80&w=1470&auto=format&fit=crop"
                     title="Web Design" 
@@ -55,6 +55,7 @@ function Services() {
                     text="Turning ideas into reality by building custom software and scalable projects." 
                     button_text="Start Your Project" 
                 />
+            </div>
             </div>
         </>
     );
