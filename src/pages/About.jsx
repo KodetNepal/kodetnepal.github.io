@@ -27,6 +27,25 @@ function About(){
         text=" React | Next.js | Tailwind CSS" 
         button_text="Contact" 
       />
+      <Card 
+        title="Pratham Karn" 
+        label="Web Developer" 
+        text="Building Scalable & Efficient Web Solutions" 
+        button_text="Contact" 
+      />
+      <Card 
+        title="Pratham Karn" 
+        label="Web Developer" 
+        text="Building Scalable & Efficient Web Solutions" 
+        button_text="Contact" 
+      />
+      <Card 
+        title="Pratham Karn" 
+        label="Web Developer" 
+        text="Building Scalable & Efficient Web Solutions" 
+        button_text="Contact" 
+      />
+      
       </div>
       </>
     )
