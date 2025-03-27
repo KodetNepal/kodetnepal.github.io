@@ -3,6 +3,8 @@ function Home(){
     return (
         <>
         <Hero/>
+        <Hero/>
+
         </>
     )
 }

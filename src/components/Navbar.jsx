@@ -15,7 +15,7 @@ function Navbar() {
                     <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
                     <li><NavLink to="/services" activeClassName="active">Services</NavLink></li>
                     <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
-                    <li><NavLink to="/feedBack" activeClassName="active">Feedback</NavLink></li>
+                    {/* <li><NavLink to="/feedBack" activeClassName="active">Feedback</NavLink></li> */}
                 </ul>
             </nav>
         </>
