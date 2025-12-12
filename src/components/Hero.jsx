@@ -7,7 +7,7 @@ function Hero() {
 
                 <div className="content">
 
-                    <h1>Turn Your Ideas into Reality</h1>
+                    <h1>Coming Soon!</h1>
                     <p>
                     Let Us Bring Your Vision to Life with Our Top-notch Services and Creative Solutions
                     </p>
